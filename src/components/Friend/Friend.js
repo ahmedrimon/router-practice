@@ -14,6 +14,7 @@ const Friend = (props) => {
             <h2>Name: {name}</h2>
             <p>Email: {email}</p>
             <Link to={`/friend/${id}`}>show this {id}</Link>
+            
             <button onClick={() => handleClick(id)}>Add me</button>
         </div>
     );
